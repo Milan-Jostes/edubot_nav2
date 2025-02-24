@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/edubot_nav2/edubot_nav2.egg-info
+writing ../../build/edubot_nav2/edubot_nav2.egg-info/PKG-INFO
+writing dependency_links to ../../build/edubot_nav2/edubot_nav2.egg-info/dependency_links.txt
+writing requirements to ../../build/edubot_nav2/edubot_nav2.egg-info/requires.txt
+writing top-level names to ../../build/edubot_nav2/edubot_nav2.egg-info/top_level.txt
+writing manifest file '../../build/edubot_nav2/edubot_nav2.egg-info/SOURCES.txt'
+reading manifest file '../../build/edubot_nav2/edubot_nav2.egg-info/SOURCES.txt'
+writing manifest file '../../build/edubot_nav2/edubot_nav2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/milan/edubot_ws/build/edubot_nav2/build
+creating /home/milan/edubot_ws/build/edubot_nav2/build/lib
+creating /home/milan/edubot_ws/build/edubot_nav2/build/lib/edubot_nav2
+copying edubot_nav2/__init__.py -> /home/milan/edubot_ws/build/edubot_nav2/build/lib/edubot_nav2
+running install
+running install_lib
+creating /home/milan/edubot_ws/install/edubot_nav2/lib/python3.12/site-packages/edubot_nav2
+copying /home/milan/edubot_ws/build/edubot_nav2/build/lib/edubot_nav2/__init__.py -> /home/milan/edubot_ws/install/edubot_nav2/lib/python3.12/site-packages/edubot_nav2
+byte-compiling /home/milan/edubot_ws/install/edubot_nav2/lib/python3.12/site-packages/edubot_nav2/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/milan/edubot_ws/install/edubot_nav2/share/ament_index
+creating /home/milan/edubot_ws/install/edubot_nav2/share/ament_index/resource_index
+creating /home/milan/edubot_ws/install/edubot_nav2/share/ament_index/resource_index/packages
+copying resource/edubot_nav2 -> /home/milan/edubot_ws/install/edubot_nav2/share/ament_index/resource_index/packages
+copying package.xml -> /home/milan/edubot_ws/install/edubot_nav2/share/edubot_nav2
+running install_egg_info
+Copying ../../build/edubot_nav2/edubot_nav2.egg-info to /home/milan/edubot_ws/install/edubot_nav2/lib/python3.12/site-packages/edubot_nav2-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/milan/edubot_ws/build/edubot_nav2/install.log'

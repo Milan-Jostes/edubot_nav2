@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/edubot_nav2/edubot_nav2.egg-info/PKG-INFO
+../../build/edubot_nav2/edubot_nav2.egg-info/SOURCES.txt
+../../build/edubot_nav2/edubot_nav2.egg-info/dependency_links.txt
+../../build/edubot_nav2/edubot_nav2.egg-info/requires.txt
+../../build/edubot_nav2/edubot_nav2.egg-info/top_level.txt
+../../build/edubot_nav2/edubot_nav2.egg-info/zip-safe
+edubot_nav2/__init__.py
+launch/nav2_test.launch.py
+resource/edubot_nav2
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

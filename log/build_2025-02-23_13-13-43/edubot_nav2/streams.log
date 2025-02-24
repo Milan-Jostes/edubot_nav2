@@ -1,0 +1,19 @@
+[0.895s] Invoking command in '/home/milan/edubot_ws/src/edubot_nav2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/milan/edubot_ws/build/edubot_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milan/edubot_ws/install/edubot_nav2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/edubot_nav2 build --build-base /home/milan/edubot_ws/build/edubot_nav2/build install --record /home/milan/edubot_ws/build/edubot_nav2/install.log --single-version-externally-managed install_data
+[1.189s] running egg_info
+[1.208s] writing ../../build/edubot_nav2/edubot_nav2.egg-info/PKG-INFO
+[1.208s] writing dependency_links to ../../build/edubot_nav2/edubot_nav2.egg-info/dependency_links.txt
+[1.209s] writing requirements to ../../build/edubot_nav2/edubot_nav2.egg-info/requires.txt
+[1.209s] writing top-level names to ../../build/edubot_nav2/edubot_nav2.egg-info/top_level.txt
+[1.249s] reading manifest file '../../build/edubot_nav2/edubot_nav2.egg-info/SOURCES.txt'
+[1.250s] writing manifest file '../../build/edubot_nav2/edubot_nav2.egg-info/SOURCES.txt'
+[1.250s] running build
+[1.250s] running build_py
+[1.250s] running install
+[1.258s] running install_lib
+[1.278s] running install_data
+[1.278s] running install_egg_info
+[1.299s] removing '/home/milan/edubot_ws/install/edubot_nav2/lib/python3.12/site-packages/edubot_nav2-0.0.0-py3.12.egg-info' (and everything under it)
+[1.299s] Copying ../../build/edubot_nav2/edubot_nav2.egg-info to /home/milan/edubot_ws/install/edubot_nav2/lib/python3.12/site-packages/edubot_nav2-0.0.0-py3.12.egg-info
+[1.300s] running install_scripts
+[1.438s] writing list of installed files to '/home/milan/edubot_ws/build/edubot_nav2/install.log'
+[1.467s] Invoked command in '/home/milan/edubot_ws/src/edubot_nav2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/milan/edubot_ws/build/edubot_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milan/edubot_ws/install/edubot_nav2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/edubot_nav2 build --build-base /home/milan/edubot_ws/build/edubot_nav2/build install --record /home/milan/edubot_ws/build/edubot_nav2/install.log --single-version-externally-managed install_data

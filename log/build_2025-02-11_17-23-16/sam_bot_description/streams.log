@@ -1,0 +1,62 @@
+[0.131s] Invoking command in '/home/milan/edubot_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/milan/edubot_ws/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/milan/edubot_ws/install/sam_bot_description
+[0.210s] -- The C compiler identification is GNU 13.3.0
+[0.279s] -- The CXX compiler identification is GNU 13.3.0
+[0.294s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.375s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.375s] -- Detecting C compile features
+[0.375s] -- Detecting C compile features - done
+[0.383s] -- Detecting CXX compiler ABI info
+[0.456s] -- Detecting CXX compiler ABI info - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.462s] -- Detecting CXX compile features
+[0.462s] -- Detecting CXX compile features - done
+[0.467s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.573s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.660s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.741s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.741s] -- Configured cppcheck include dirs: 
+[0.741s] -- Configured cppcheck exclude dirs and/or files: 
+[0.742s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.742s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.744s] -- Added test 'lint_cmake' to check CMake code style
+[0.745s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.751s] -- Added test 'uncrustify' to check C / C++ code style
+[0.751s] -- Configured uncrustify additional arguments: 
+[0.752s] -- Added test 'xmllint' to check XML markup files
+[0.753s] -- Configuring done (0.6s)
+[0.755s] -- Generating done (0.0s)
+[0.756s] -- Build files have been written to: /home/milan/edubot_ws/build/sam_bot_description
+[0.760s] Invoked command in '/home/milan/edubot_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/milan/edubot_ws/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/milan/edubot_ws/install/sam_bot_description
+[0.760s] Invoking command in '/home/milan/edubot_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/milan/edubot_ws/build/sam_bot_description -- -j20 -l20
+[0.786s] Invoked command in '/home/milan/edubot_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/milan/edubot_ws/build/sam_bot_description -- -j20 -l20
+[0.795s] Invoking command in '/home/milan/edubot_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/milan/edubot_ws/build/sam_bot_description
+[0.802s] -- Install configuration: ""
+[0.802s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/src
+[0.802s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/src/description
+[0.802s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf
+[0.802s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.sdf
+[0.802s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/launch
+[0.802s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py
+[0.802s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/rviz
+[0.802s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/rviz/config.rviz
+[0.802s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/config
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/config/bridge_config.yaml
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/world
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/environment/path.sh
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/environment/path.dsv
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/local_setup.bash
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/local_setup.sh
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/local_setup.zsh
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/local_setup.dsv
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/package.dsv
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake
+[0.803s] -- Installing: /home/milan/edubot_ws/install/sam_bot_description/share/sam_bot_description/package.xml
+[0.806s] Invoked command in '/home/milan/edubot_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/milan/edubot_ws/build/sam_bot_description
