@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/edubot_nav2/edubot_nav2.egg-info/PKG-INFO
+writing dependency_links to ../../build/edubot_nav2/edubot_nav2.egg-info/dependency_links.txt
+writing requirements to ../../build/edubot_nav2/edubot_nav2.egg-info/requires.txt
+writing top-level names to ../../build/edubot_nav2/edubot_nav2.egg-info/top_level.txt
+reading manifest file '../../build/edubot_nav2/edubot_nav2.egg-info/SOURCES.txt'
+writing manifest file '../../build/edubot_nav2/edubot_nav2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/nav2_test.launch.py -> /home/milan/edubot_ws/install/edubot_nav2/share/edubot_nav2
+running install_egg_info
+removing '/home/milan/edubot_ws/install/edubot_nav2/lib/python3.12/site-packages/edubot_nav2-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/edubot_nav2/edubot_nav2.egg-info to /home/milan/edubot_ws/install/edubot_nav2/lib/python3.12/site-packages/edubot_nav2-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/milan/edubot_ws/build/edubot_nav2/install.log'

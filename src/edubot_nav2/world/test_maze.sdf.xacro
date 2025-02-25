@@ -550,7 +550,7 @@
             <izz>0.16666</izz>
           </inertia>
           <mass>1</mass>
-          <pose>0 0 0 0 0 0</pose>
+          <pose>0 0 0 0 1 0</pose>
         </inertial>
         <collision name='box_collision'>
           <geometry>

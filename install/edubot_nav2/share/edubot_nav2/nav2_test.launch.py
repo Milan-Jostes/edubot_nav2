@@ -66,7 +66,7 @@ def generate_launch_description():
     world = LaunchConfiguration('world')
     pose = {
         'x': LaunchConfiguration('x_pose', default='-2.00'),
-        'y': LaunchConfiguration('y_pose', default='-0.50'),
+        'y': LaunchConfiguration('y_pose', default='0'),
         'z': LaunchConfiguration('z_pose', default='0.01'),
         'R': LaunchConfiguration('roll', default='0.00'),
         'P': LaunchConfiguration('pitch', default='0.00'),
@@ -157,8 +157,11 @@ def generate_launch_description():
     declare_world_cmd = DeclareLaunchArgument(
         'world',
         #Change the name to your world file
-        default_value=os.path.join(world_dir,'test_maze.sdf.xacro'),
+        # default_value=os.path.join(world_dir, 'tb3_sandbox.sdf.xacro'),
         # default_value=os.path.join(world_dir,'test_maze.sdf.xacro'),
+        # default_value=os.path.join(world_dir,'basic_corner.sdf.xacro'),
+        default_value=os.path.join(world_dir,'advanced_corner.sdf.xacro'),
+        # default_value=os.path.join(world_dir,'simple_box.sdf.xacro'),
         description='Full path to world model file to load',
     )
 
