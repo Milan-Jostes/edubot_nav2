@@ -1,15 +1,15 @@
 amcl:
   ros__parameters:
     #Noise in rotation from rotation
-    alpha1: 0.9
+    alpha1: 0.1
     #Noise in rotation from translation
-    alpha2: 0.2
+    alpha2: 0.1
     #Noise in translation from translation
-    alpha3: 0.8
+    alpha3: 0.1
     #Noise in translation from rotation
-    alpha4: 0.5
+    alpha4: 0.1
     #Noise only used if omni model
-    alpha5: 0.2
+    alpha5: 0.1
     base_frame_id: "base_footprint"
     beam_skip_distance: 0.5
     beam_skip_error_threshold: 0.9
@@ -207,7 +207,7 @@ local_costmap:
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         cost_scaling_factor: 3.0
-        inflation_radius: 0.70
+        inflation_radius: 0.50
       voxel_layer:
         plugin: "nav2_costmap_2d::VoxelLayer"
         enabled: True
