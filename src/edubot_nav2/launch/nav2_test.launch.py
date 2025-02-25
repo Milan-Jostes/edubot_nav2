@@ -158,7 +158,7 @@ def generate_launch_description():
         'world',
         #Change the name to your world file
         default_value=os.path.join(world_dir,'test_maze.sdf.xacro'),
-        default_value=os.path.join(world_dir,'test_maze.sdf.xacro'),
+        # default_value=os.path.join(world_dir,'test_maze.sdf.xacro'),
         description='Full path to world model file to load',
     )
 
