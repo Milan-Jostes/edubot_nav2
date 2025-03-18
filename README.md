@@ -1,3 +1,8 @@
+<h2>Run Nav2 on Simulator with Gazebo</h2>
+<p>Headless determines whether Gazebo will launch it's visual component</p>
+
+```ros2 launch edubot_nav2 nav2_test.launch.py headless:=False```
+
 <h2>How to fix launching issues:</h2>
 <h3>Installl Cyclonedds</h3>
 
